@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="bios">
+    <method name="doLabel3ClickLeft">
+      <hideForm form="bios" form-type="form"/>
+    </method>
+  <method name="doButtonClickLeft">
+      <showForm form="Win10Loading1" form-type="form"/>
+      <hideForm form="bios" form-type="form"/>
+    </method>
+  </class>
+</root>

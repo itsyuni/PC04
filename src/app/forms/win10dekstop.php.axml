@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="win10dekstop">
+    <method name="doImage4ClickLeft">
+      <showForm form="win10edge" form-type="form"/>
+    </method>
+  <method name="doImage5ClickLeft">
+      <showForm form="win10file" form-type="form"/>
+    </method>
+  <method name="doButtonClickLeft">
+      <showForm form="win10kor" form-type="form"/>
+    </method>
+  </class>
+</root>

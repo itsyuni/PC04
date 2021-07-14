@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528" prefWidth="808" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="528" id="rect" layoutX="0" layoutY="0" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="808"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image" layoutX="774" layoutY="5" mosaic="false" mosaicGap="0" proportional="false" rotate="45" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/add_black_96x96.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="13" layoutY="12" prefHeight="16" prefWidth="96" styleClass="label " text="Проводник" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="imageAlt" layoutX="8" layoutY="40" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/arrow_back_black_96x96.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="35" id="image3" layoutX="42" layoutY="40" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="35">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/arrow_forward_black_96x96.png" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="88" layoutY="40" prefColumnCount="12" prefHeight="32" prefWidth="560" promptText="С:/User/" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="20" id="image4" layoutX="8" layoutY="88" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="20">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/star_outline_black_96x96.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="34" layoutY="91" prefHeight="16" prefWidth="97" styleClass="label " text="Избранное" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="34" layoutY="120" prefHeight="16" prefWidth="96" styleClass="label " text="Загрузки" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="34" layoutY="151" prefHeight="16" prefWidth="96" styleClass="label " text="Рабочий стол" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <Separator focusTraversable="false" id="separator" layoutX="8" layoutY="184" orientation="HORIZONTAL" prefHeight="8" prefWidth="144" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="34" layoutY="200" prefHeight="16" prefWidth="96" styleClass="label " text="Компьютер" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="34" layoutY="228" prefHeight="17" prefWidth="168" styleClass="label " text="Локальный диск С:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+    <HBox alignment="TOP_LEFT" focusTraversable="false" id="" layoutX="0" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" opacity="0.7" prefHeight="530" prefWidth="810" spacing="0" style="-fx-opacity: 0.7; -fx-border-width: 1px; -fx-border-color: black; -fx-border-style: dashed; -fx-background-color: transparent" styleClass="">
+      <children/>
+    </HBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+  </children>
+</AnchorPane>

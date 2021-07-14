@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504" prefWidth="736" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cccccc" focusTraversable="false" height="504" id="rect" layoutX="0" layoutY="0" stroke="#cccccc" strokeType="INSIDE" strokeWidth="2" styleClass="" width="736"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#f2f2f2" focusTraversable="false" height="48" id="rectAlt" layoutX="0" layoutY="40" stroke="#f2f2f2" strokeType="INSIDE" strokeWidth="2" styleClass="" width="736"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#f2f2f2" focusTraversable="false" height="40" id="rect3" layoutX="0" layoutY="0" stroke="#f2f2f2" strokeType="INSIDE" strokeWidth="2" styleClass="" width="192"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+    <WebView focusTraversable="true" id="browser" layoutX="0" layoutY="88" prefHeight="416" prefWidth="736"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-browser" url="https://www.google.ru/?gfe_rd=cr&amp;ei=VSlnWeiUGO2EyAWXwYWgAg&amp;gws_rd=ssl" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="25" id="image" layoutX="705" layoutY="6" mosaic="false" mosaicGap="0" proportional="false" rotate="43.90243902439" stretch="true" styleClass="" textFill="#000000" width="25">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/add_black_96x96.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="25" id="imageAlt" layoutX="197" layoutY="6" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="25">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/add_black_96x96.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="10" layoutY="10" prefHeight="16" prefWidth="96" styleClass="label " text="Google" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="25" id="image3" layoutX="161" layoutY="6" mosaic="false" mosaicGap="0" proportional="false" rotate="43.90243902439" stretch="true" styleClass="" textFill="#000000" width="25">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/add_black_96x96.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image4" layoutX="696" layoutY="49" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/star_outline_black_96x96.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image5" layoutX="8" layoutY="48" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/arrow_back_black_96x96.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image6" layoutX="48" layoutY="48" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image6" image=".data/img/arrow_forward_black_96x96.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image7" layoutX="88" layoutY="48" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image7" image=".data/img/cached_black_96x96.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="136" layoutY="56" prefHeight="16" prefWidth="96" styleClass="label " text="google.com/ru" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+  </children>
+</AnchorPane>

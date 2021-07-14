@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="win10filemanager">
+    <method name="doImageClickLeft">
+      <hideForm form="win10filemanager" form-type="form"/>
+    </method>
+  </class>
+<class name="win10file">
+    <method name="doRectClickLeft">
+      <hideForm form="win10file" form-type="form"/>
+    </method>
+  
+  <method name="doImageClickLeft">
+      <hideForm form="win10file" form-type="form"/>
+    </method>
+  </class>
+</root>

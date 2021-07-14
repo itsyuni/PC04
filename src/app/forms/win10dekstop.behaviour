@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="labelAlt">
+    <behaviour format="dd.MM.YY" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="imageAlt">
+    <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour threshold="0.47073170731707" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image3">
+    <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour threshold="0.48292682926829" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image4">
+    <behaviour threshold="0.37317073170732" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image5">
+    <behaviour threshold="0.32439024390244" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+</behaviours>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image">
+    <behaviour brightness="-0.12345679012346" contrast="1" hue="0.32098765432099" saturation="-0.074074074074074" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>
